@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px;
+
+  background-color: #f2f3f4;
+  color: #444;
+
+  background-image: url('./img/imglista.avif');
+  background-position: center;
+  background-size: cover;
+}
+
+.app {
+  max-width: 500px;
+  margin: 0 auto 25em;
+  padding: 2rem 3rem;
+  border-radius: 3rem;
+
+  background-color: #55cbcbba;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #e8e5e5;
+  color: #0e0d0d;
+
+  padding: 0.5rem 1rem;
+  border: none;
+  margin-right: 1rem;
+  border-radius: 4rem;
+
+  transition: 0.6s ease all;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 2;
+}
+
+.todo {
+  background-color: #94f5f5ba;
+  box-shadow: 0.1rem 0.1rem 3rem rgba(0, 0, 0, 0.6);
+  border-radius: 3rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-list {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 0.1rem solid #555;
+}
+.todo-form button {
+  background-color: #556bcbba;
+  color: #f2f3f4;
+}
+
+.complete {
+  background-color: #51f83b;
+}
+
+.delete {
+  background-color: #ef2323;
+}
+
+.todo-form {
+  padding-bottom: 1.5rem;
+}
+
+input,
+select {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 0.1rem solid #cecece;
+  border-radius: 4rem;
+  width: 100%;
+}
+
+.filter,
+.search {
+  border-bottom: 0.1rem solid #cecece;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.filter button {
+  background-color: #556bcbba;
+  color: #f2f3f4;
+}
+
+.filter-options {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.filter-options div {
+  flex: 1 1 0;
+}
